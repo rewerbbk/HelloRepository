@@ -12,12 +12,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{B3F96C2B-7DE7-4106-9269-7737161252FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{D7C3ABFB-9F53-4172-87D2-CD01F7962BCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B3F96C2B-7DE7-4106-9269-7737161252FD} = {B3F96C2B-7DE7-4106-9269-7737161252FD}
+		{E1D055EA-1B17-4FE4-9CA0-B1F8CA9395D4} = {E1D055EA-1B17-4FE4-9CA0-B1F8CA9395D4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{2C8737A1-2D48-4FA0-BC6D-5736772C12DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UILayer", "UILayer\UILayer.csproj", "{13B77934-657B-43F7-8B85-264B2A35A36C}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DBProject", "DBProject\DBProject.sqlproj", "{2A099AD7-B634-4880-A87D-4E3EB7C29B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap", "StructureMap\StructureMap.csproj", "{66E969BC-7DCE-46A0-A83C-DDC516C27F2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +65,10 @@ Global
 		{2A099AD7-B634-4880-A87D-4E3EB7C29B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A099AD7-B634-4880-A87D-4E3EB7C29B48}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2A099AD7-B634-4880-A87D-4E3EB7C29B48}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{66E969BC-7DCE-46A0-A83C-DDC516C27F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E969BC-7DCE-46A0-A83C-DDC516C27F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E969BC-7DCE-46A0-A83C-DDC516C27F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E969BC-7DCE-46A0-A83C-DDC516C27F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
