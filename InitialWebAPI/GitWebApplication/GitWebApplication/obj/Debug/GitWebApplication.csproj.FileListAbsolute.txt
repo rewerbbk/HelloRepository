@@ -91,5 +91,6 @@ C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitW
 C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitWebApplication\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitWebApplication\bin\Microsoft.AI.Web.xml
 C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitWebApplication\obj\Debug\GitWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitWebApplication\obj\Debug\GitWebApplication.csproj.CopyComplete
 C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitWebApplication\obj\Debug\GitWebApplication.dll
 C:\Users\rewer\Source\Repos\HelloRepository\InitialWebAPI\GitWebApplication\GitWebApplication\obj\Debug\GitWebApplication.pdb
