@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <a href=@Url.Action("Index", "NewCustom")>Home</a>
+    <div>Custom layout top</div>
+    @RenderBody()
+    @RenderSection("scripts", required: false)
+    <div>Custom layout bottom</div>
+    <div>
+        <footer>
+            <p>Version @ViewBag.version &copy; @DateTime.Now.Year - My Custom ASP.NET Application</p>
+        </footer>
+    </div>
+</body>
+</html>

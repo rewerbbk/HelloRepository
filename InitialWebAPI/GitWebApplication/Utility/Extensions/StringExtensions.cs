@@ -80,5 +80,15 @@ namespace Utility.Extensions
 
             return true;
         }
+
+        private static uint OccurencesOf(this string haystack, string needle)
+        {
+            int response = 0;
+
+            if (!string.IsNullOrEmpty(needle) && !string.IsNullOrEmpty(haystack))
+                response = (haystack.Length - haystack.Replace(needle, "").Length) / needle.Length;
+
+            return (uint)response;
+        }
     }
 }

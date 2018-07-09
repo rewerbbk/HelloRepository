@@ -1,0 +1,28 @@
+﻿@model EmptyUILayer.Models.CustomModel
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<div>
+    <h3>New Custom Page</h3>
+    @Html.ActionLink("Second internal page", "Page2", "NewCustom", new { area = "" }, null)
+    
+    <section id="someForm">
+        @using (Html.BeginForm("Page3", "NewCustom", FormMethod.Post))
+        {
+            <fieldset>
+                <legend>Some Form Legend</legend>
+                <br />
+                @Html.TextBoxFor(m => m.addressLine1)
+                @Html.LabelFor(m => m.addressLine1)
+                <br />
+                @Html.TextBoxFor(m => m.numberField)
+                @Html.LabelFor(m => m.numberField)        
+                <br />
+                <input type="submit" value="submit text" />
+            </fieldset>
+        }
+</section>
+
+<div>@ViewBag.CField</div>
+
