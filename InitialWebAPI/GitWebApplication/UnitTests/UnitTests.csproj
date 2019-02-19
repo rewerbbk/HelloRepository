@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncTests.cs" />
     <Compile Include="ExampleTests\CustomMetaDataTests.cs" />
     <Compile Include="ExampleTests\YieldExTests.cs" />
     <Compile Include="UnitTest1.cs" />
